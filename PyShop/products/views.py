@@ -10,3 +10,5 @@ def index(request):
 
 def new(request):
     return HttpResponse('New products page')
+# bootstrap for css
+# https://getbootstrap.com/docs/4.0/getting-started/introduction/
