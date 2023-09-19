@@ -1,0 +1,6 @@
+1. Install pandas lib
+2. Install lxml
+3. run jupyter notebook and there u go
+4. we do not want all the tables in the page, so we need to enumerate the tables we want to read
+and separate them from the others
+5. index the tables and read them all the choose exactly the one want to read
