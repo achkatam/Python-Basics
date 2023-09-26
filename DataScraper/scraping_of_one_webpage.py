@@ -39,4 +39,3 @@ for i in data:
     print(index_of_product)
     index_of_product += 1
     print(f"{name}  {price}  {image}")
-
