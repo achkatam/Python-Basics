@@ -28,7 +28,7 @@ def get_url():
 def array():
     for card_url in get_url():
         response = requests.get(card_url, headers=headers)
-       # sleep(1)  # The website won't recognize the spider
+        sleep(3)  # The website won't recognize the spider
 
         soup = BeautifulSoup(response.text, "lxml")
         data = soup.find("div", class_="my-8 w-full rounded border")
