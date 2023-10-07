@@ -13,6 +13,7 @@ def send_info():
     user_input = get_user_input()
 
     if user_input == 'l':
+        print("To print all leagues enter 'all' or choose from the following:")
         print_top_leagues()
         league_name = input("Enter league name: ")
         result = print_league_result(league_name)
