@@ -3,7 +3,6 @@ from api_handler import data
 
 
 def print_team_result(team):
-    # team_name = input(" ") test purposes
     team_name = team
     for game in data['events']:
         league = game['tournament']['name']
